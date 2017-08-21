@@ -1,0 +1,38 @@
+body {
+    font-family: Helvetica;
+    font-size: 18px;
+    background-color: #fff;
+}
+
+a {
+    color:#588d69;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #d43728;
+}
+
+.main {
+    width: 70%;
+    margin: 2em auto 2em;
+    font-size: 1.25em;
+    line-height: 1.4em;
+}
+
+.main .title {
+    font-weight: bold;
+    font-size: 1.5em;
+    line-height: 1.6em;
+}
+
+.main ul.list {
+  list-style-type: none;
+  padding-left:0;
+}
+
+.desc {
+    font-size: .75em;
+    line-height: 1.4em;
+    display: block;
+}
