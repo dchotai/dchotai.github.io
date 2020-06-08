@@ -1,4 +1,6 @@
+syntax_highlighter: rouge
 markdown: kramdown
-kramdown:
-  input: GFM
-  syntax_highlighter: rouge
+collections:
+  writeups:
+    output: true
+    permalink: /:collection/:title

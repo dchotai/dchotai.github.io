@@ -1,5 +1,31 @@
+.highlighter-rouge{
+  font-weight:300;
+  position:relative
+}
+.table code.highlighter-rouge,kbd,li code.highlighter-rouge,p code.highlighter-rouge{
+  color:#c66;
+  font-size:0.9em;
+  background-color:#f7f7f5;
+  padding:2px 4px;
+  border-radius:2px;
+  word-break:break-word
+}
+.table code.highlighter-rouge{
+  background-color:transparent
+}
 .highlight table td { padding: 5px; }
 .highlight table pre { margin: 0; }
+.highlight {
+  margin: 0.5em;
+  font-size: 0.9em;
+  line-height: 1.1em;
+  color: #ffffff;
+  background-color: #272822;
+}
+pre.highlight {
+  padding: 0.5em;
+}
+pre { white-space: pre; overflow: auto; width: inherit;}
 .highlight .gh {
   color: #999999;
 }
@@ -167,10 +193,6 @@
   background-color: #272822;
 }
 .highlight .w {
-  color: #ffffff;
-  background-color: #272822;
-}
-.highlight {
   color: #ffffff;
   background-color: #272822;
 }

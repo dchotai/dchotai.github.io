@@ -2,14 +2,8 @@
 <html>
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>
-        {% if page.title != "Divyesh Chotai" %}
-        {{ page.title | append: " - Divyesh Chotai" }}
-        {% else %}
-        {{ page.title }}
-        {% endif %}
-    </title>
-    <link rel="stylesheet" href="/css/style.css">
+    <title>{{ page.title | append: " - Divyesh Chotai"  }}</title>
+    <link rel="stylesheet" href="/css/writeup-style.css">
     <link rel="stylesheet" href="/css/monokai-sublime.css">
 </head>
 <body>
@@ -17,7 +11,9 @@
 <div class="main">
     <span class="title"><a href="/">Divyesh Chotai</a></span>
     <br>
+    <span class="writeup-text">
     {{ content }}
+    </span>
 </div>
 
 </body>

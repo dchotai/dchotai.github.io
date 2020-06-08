@@ -1,0 +1,60 @@
+body {
+    font-family: Helvetica;
+    font-size: 16px;
+    background-color: #fff;
+}
+
+a {
+    color:#588d69;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #d43728;
+}
+
+@media only screen and (max-width: 1100px) {
+    .main {
+        width: 95%;
+        margin: 1em auto 1em;
+        font-size: 0.85em;
+        line-height: 1.2em;
+    }
+}
+
+.main {
+    width: 70%;
+    margin: 2em auto 2em;
+    font-size: 1.25em;
+    line-height: 1.4em;
+}
+
+.main .title {
+    font-weight: bold;
+    font-size: 1.5em;
+    line-height: 1.6em;
+}
+
+.main ul.list {
+  list-style-type: none;
+  padding-left:0;
+}
+
+.desc {
+    font-size: .75em;
+    line-height: 0.4em;
+    display: block;
+}
+
+.writeup-text {
+    font-size: .9em;
+    line-height: 1.4em;
+    display: block;
+}
+
+blockquote {
+  border-left: .25em solid #dfe2e5;
+  color: #6a737d;
+  padding: 0 1em;
+  font-size: .85em;
+}
