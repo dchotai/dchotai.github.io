@@ -58,3 +58,9 @@ blockquote {
   padding: 0 1em;
   font-size: .85em;
 }
+
+.file-link {
+    background-color:#f5f7f7;
+    border-radius:2px;
+    padding:2px 4px;
+}
